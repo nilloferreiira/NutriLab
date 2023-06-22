@@ -1,0 +1,88 @@
+.card-lateral{
+
+    background-color: #27DB8F;
+    margin-top: 20px;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    box-shadow: 5px 5px 5px gray;
+
+}
+
+.link-lateral:hover{
+    text-decoration: none;
+}
+
+.titulo{
+
+    color: #27DB8F;
+
+}
+
+.card-paciente{
+
+    background-color: #EAEAEA;
+    width: 80%;
+    box-shadow: 3px 3px 3px gray;
+    padding: 20px;
+    color: black;
+
+}
+
+.link-hover:hover{
+    text-decoration: none;
+}
+
+.foto-perfil{
+    text-align: center;
+}
+
+.dados{
+    font-weight: bold;
+}
+
+.descricao{
+
+    margin-left: -12%;
+
+}
+
+@media (max-width: 1300px)
+{
+
+    .descricao{
+
+        margin-left: 1px;
+    
+    }
+
+}
+
+.meu-botao {
+    display: inline-block;
+    font-weight: 400;
+    color: #e2e2e2;
+    border: none;
+    text-align: center;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: #28a745;
+    border: 1px solid transparent;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 0.25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    text-decoration: none;
+}
+
+.meu-botao:hover{
+    color: #ffffff;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+

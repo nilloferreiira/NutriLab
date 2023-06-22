@@ -15,7 +15,7 @@ def cadastro(request):
         return render(request, 'cadastro.html')
     
     if request.user.is_authenticated:
-        return redirect('/')
+        return redirect('/pacientes')
 
     elif request.method == "POST":
         nome = request.POST.get('nome')
@@ -54,7 +54,7 @@ def cadastro(request):
 
         path_template = os.path.join(settings.BASE_DIR, 'usuarios/templates/emails/cadastro_confirmado.html')
         email_html(path_template, 'Cadastro confirmado', [email,], username=nome, link_ativacao=f"127.0.0.1:8000/auth/ativar_conta/{token}")
-        messages.add_message(request, constants.SUCCESS, "Cadastro feito com sucesso!")
+        messages.add_message(request, constants.SUCCESS, "Verifique seu email para finalizar o cadastro!")
         return redirect(reverse('login'))
     except:
         messages.add_message(request, constants.ERROR, "Erro interno do sistema")
@@ -65,7 +65,7 @@ def login(request):
         return render(request, 'login.html')
     
     if request.user.is_authenticated:
-        return redirect('/')
+        return redirect('/pacientes')
     
     elif request.method == "POST":
         email = request.POST.get('email')
@@ -79,7 +79,7 @@ def login(request):
             return redirect(reverse('login'))
 
         auth.login(request, user)
-        return HttpResponse('logado!')
+        return redirect('/pacientes/')
 
 def sair(request):
     auth.logout(request)
