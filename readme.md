@@ -1,4 +1,4 @@
-## ![logo](/readme-img/logo_nutri_lab.png) Nutri Lab 
+## Nutri Lab 
 
 Um aplicativo para nutricionista gerenciarem seus pacientes de forma fácil e eficiente! (em desenvolvimento)
 
