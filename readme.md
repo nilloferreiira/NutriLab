@@ -1,4 +1,4 @@
-## Nutri Lab
+## ![logo](/readme-img/logo_nutri_lab.png) Nutri Lab 
 
 Um aplicativo para nutricionista gerenciarem seus pacientes de forma fácil e eficiente! (em desenvolvimento)
 
@@ -19,6 +19,7 @@ As principais features da aplicação:
  - Cadastro de pacientes
  - listagem de todos os pacientes
  - Gerenciar e cadastrar dados sobre o paciente
+ - Criar um plano alimentar para cada paciente
  - Dashboard da evolução do paciente
 
 ### Dependências
@@ -50,6 +51,22 @@ As principais features da aplicação:
 ### 6 - Cadastrar dados do paciente.
 
 ![Participantes](/readme-img/dados_paciente.png)
+
+### 7 - Plano alimentar.
+
+![Plano alimentar](/readme-img/plano_alimentar_listar.png)
+
+### 8 - Plano alimentar do paciente.
+
+![Plano alimentar do paciente](/readme-img/plano_alimentar_paciente.png)
+
+### 9 - Cadastrar uma refeição.
+
+![Cadastrar Refeicao](/readme-img/refeicao.png)
+
+### 10 - Cadastrar uma opção de refeição.
+
+![Cadastrar Opcao](/readme-img/opcao.png)
 
 
 ## Links
