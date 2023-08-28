@@ -9,6 +9,10 @@ Aqui estão as tecnologias usadas no projeto
 * Python  3.11.4
 * Django  4.2.2
 
+## Fluxo da aplicação 
+
+* Quando entrar va para a url `/auth/cadastro`
+
 ## Features
 
 As principais features da aplicação:
